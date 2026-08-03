@@ -9,6 +9,16 @@ This project is a physics-based rocket flight simulator developed in Python. The
 The simulation is validated against experimental flight data using the Root Mean Square Error (RMSE), allowing the accuracy of the model to be assessed.
 
 ---
+## Project Objectives
+
+The objective of this project was to:
+
+- Develop a physics-based rocket flight simulator in Python.
+- Predict the vertical flight trajectory of a model rocket.
+- Investigate how engineering parameters influence flight performance.
+- Validate simulation results against experimental flight data using RMSE.
+  
+---
 
 ## Features
 
@@ -30,6 +40,51 @@ The simulation is validated against experimental flight data using the Root Mean
 - NumPy
 - Pandas
 - Matplotlib
+
+---
+
+
+## Governing Equations
+
+Net Force
+
+F = T − D − mg
+
+Acceleration
+
+a = F / m
+
+Euler Integration
+
+v = v + aΔt
+
+h = h + vΔt
+
+Drag
+
+D = ½ρCdAv²
+
+Atmospheric Density
+
+ρ = ρ₀e^(−h/8500)
+
+---
+
+##Simulation Workflow
+
+Motor Thrust Curve
+        ↓
+Calculate Forces
+        ↓
+Euler Integration
+        ↓
+Update Velocity
+        ↓
+Update Altitude
+        ↓
+Compare with Flight Data
+        ↓
+Calculate RMSE
 
 ---
 
