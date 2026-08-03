@@ -128,7 +128,7 @@ Performance was evaluated using:
 
 ## 1. Simulation Validation
 
-![Simulation vs Experiment](simulation_vs_experiment.png)
+![Simulation vs Experiment](simulation%20vs%20experiment.png)
 
 The simulated altitude profile closely follows the experimental flight data.
 Model accuracy was quantified using the Root Mean Square Error (RMSE).
