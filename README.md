@@ -70,7 +70,6 @@ Atmospheric Density
 
 ---
 
-## Simulation Workflow
 
 ## Simulation Workflow
 
