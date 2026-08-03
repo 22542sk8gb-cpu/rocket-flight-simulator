@@ -91,7 +91,7 @@ Calculate RMSE
 
 At baseline conditions (thrust scale = 1.0, Cd = 1.0, no wind), the simulator reaches a **maximum altitude of 146.3 m** against an experimental RMSE of **18.0 m**, tracking the real flight closely through the powered ascent and coast phase.
 
-![Simulation vs Experimental Data](simulation_vs_experiment.png)
+![Simulation vs Experimental Data](simulation%20vs%20experiment.png)
 
 ### Thrust Scale
 
@@ -124,8 +124,7 @@ Simulation error is minimized at a thrust-to-weight ratio of roughly **5.3–5.4
 
 Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), then decreases for higher propellant loads as the added mass outweighs the extra burn time. Maximum velocity follows a similar trend, peaking near **54.6 m/s** at 0.04 kg.
 
-![Effect of Propellant Mass on Max Altitude](effect of prop mass _mass_vs_altitude.png)
-![Effect of Propellant Mass on Max Velocity](effect_of_prop_mass_on_max_ve.png)
+![Effect of Propellant Mass on Max Velocity](effect%20of%20prop%20mass%20on%20max%20ve.png)
 ![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect_of_propellant_mass_on_twr.png)
 
 ### Wind Speed
