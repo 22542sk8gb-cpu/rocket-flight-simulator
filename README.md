@@ -124,6 +124,7 @@ Simulation error is minimized at a thrust-to-weight ratio of roughly **5.3–5.4
 
 Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), then decreases for higher propellant loads as the added mass outweighs the extra burn time. Maximum velocity follows a similar trend, peaking near **54.6 m/s** at 0.04 kg.
 
+![Effect of Propellant Mass on Max Altitude](propellant_mass_vs_altitude.png)
 ![Effect of Propellant Mass on Max Velocity](effect%20of%20prop%20mass%20on%20max%20ve.png)
 ![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect_of_propellant_mass_on_twr.png)
 
