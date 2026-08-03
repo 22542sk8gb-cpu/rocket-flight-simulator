@@ -117,23 +117,23 @@ Reducing the time step from 0.2 s to 0.01 s converges the RMSE from **19.5 m dow
 
 Simulation error is minimized at a thrust-to-weight ratio of roughly **5.3–5.4**, with RMSE rising sharply on either side (up to 60+ m at the extremes). Maximum altitude increases almost linearly with TWR across the tested range.
 
-![Effect of TWR on Maximum Altitude](images/effect_of_twr_on_max_altitude.png)
-![Effect of TWR on Simulation Error](images/effect_of_twr_on_simulation_error.png)
+![Effect of TWR on Maximum Altitude](effect_of_twr_on_max_altitude.png)
+![Effect of TWR on Simulation Error](effect_of_twr_on_simulation_error.png)
 
 ### Propellant Mass
 
 Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), then decreases for higher propellant loads as the added mass outweighs the extra burn time. Maximum velocity follows a similar trend, peaking near **54.6 m/s** at 0.04 kg.
 
-![Effect of Propellant Mass on Max Altitude](images/propellant_mass_vs_altitude.png)
-![Effect of Propellant Mass on Max Velocity](images/effect_of_prop_mass_on_max_velocity.png)
-![Effect of Propellant Mass on Thrust-to-Weight Ratio](images/effect_of_propellant_mass_on_twr.png)
+![Effect of Propellant Mass on Max Altitude](propellant_mass_vs_altitude.png)
+![Effect of Propellant Mass on Max Velocity](effect_of_prop_mass_on_max_velocity.png)
+![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect_of_propellant_mass_on_twr.png)
 
 ### Wind Speed
 
 The thrust scale that best matches experimental data shifts with wind — from **1.14 in a 10 m/s headwind** down to **0.87 in a 10 m/s tailwind** — showing the model correctly compensates apparent thrust for relative airspeed. Minimum achievable RMSE stays in the **17.8–19.4 m** range across all tested wind speeds.
 
-![Best Thrust Scale vs Wind Speed](images/best_thrust_scale_vs_wind_speed.png)
-![Minimum RMSE vs Wind Speed](images/min_rmse_vs_wind_speed.png)
+![Best Thrust Scale vs Wind Speed](best_thrust_scale_vs_wind_speed.png)
+![Minimum RMSE vs Wind Speed](min_rmse_vs_wind_speed.png)
 
 ### Summary Table
 
