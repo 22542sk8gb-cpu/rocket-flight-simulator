@@ -97,7 +97,7 @@ At baseline conditions (thrust scale = 1.0, Cd = 1.0, no wind), the simulator re
 
 Sweeping the thrust multiplier from 0.8–1.4 shows altitude increasing almost linearly with thrust, while simulation error is lowest around a thrust scale of **0.88–0.98**, where RMSE drops to about **17.9–19.4 m** — meaning the real motor performed close to, but slightly below, its nominal rated thrust.
 
-![Effect of Thrust Scale on Maximum Altitude](images/thrust_scale_vs_altitude.png)
+![Effect of Thrust Scale on Maximum Altitude](thrust_scale_vs_altitude.png)
 ![Effect of Thrust Scale on Simulation Error](images/thrust_scale_vs_simulation_error.png)
 
 ### Drag Coefficient
