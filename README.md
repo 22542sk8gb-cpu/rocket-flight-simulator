@@ -70,21 +70,41 @@ Atmospheric Density
 
 ---
 
-##Simulation Workflow
+## Simulation Workflow
 
+## Simulation Workflow
+
+```text
 Motor Thrust Curve
-        ↓
-Calculate Forces
-        ↓
+        │
+        ▼
+Calculate Thrust Force
+        │
+        ▼
+Calculate Weight
+        │
+        ▼
+Calculate Aerodynamic Drag
+        │
+        ▼
+Compute Net Force
+        │
+        ▼
+Calculate Acceleration
+        │
+        ▼
 Euler Integration
-        ↓
-Update Velocity
-        ↓
-Update Altitude
-        ↓
-Compare with Flight Data
-        ↓
+        │
+        ▼
+Update Velocity & Altitude
+        │
+        ▼
+Compare with Experimental Data
+        │
+        ▼
 Calculate RMSE
+
+```
 
 ---
 
@@ -106,6 +126,52 @@ Performance was evaluated using:
 
 ---
 
+
+## 1. Simulation Validation
+
+![Simulation vs Experiment](simulation_vs_experiment.png)
+
+The simulated altitude profile closely follows the experimental flight data.
+Model accuracy was quantified using the Root Mean Square Error (RMSE).
+
+## 2. Effect of Drag Coefficient
+
+![Drag](drag_coefficient_vs_rmse.png)
+
+Increasing the drag coefficient generally reduced the maximum altitude while affecting the simulation accuracy.
+
+## 3. Effect of Thrust Scale
+
+![Thrust](thrust_scale_vs_altitude.png)
+
+Increasing thrust scale increased the thrust-to-weight ratio and resulted in higher predicted apogee.
+
+## 4. Effect of Propellant Mass
+
+![Propellant](propellant_mass_vs_altitude.png)
+
+Increasing propellant mass increased burn duration but also increased launch mass, producing competing effects on altitude.
+
+## 5. Effect of Wind Speed
+
+![Wind](wind_speed_vs_best_thrust_scale.png)
+
+The simulator investigated the influence of wind on the thrust scaling required to best match experimental flight data.
+
+---
+
+# Key Findings
+
+| Investigation | Engineering Observation |
+|---------------|------------------------|
+| Drag coefficient | Higher drag reduced maximum altitude |
+| Thrust scale | Higher thrust increased apogee |
+| Propellant mass | Longer burn but lower initial thrust-to-weight ratio |
+| Wind speed | Wind influenced the best-fit thrust scale |
+| Time step | Smaller time steps reduced numerical error |
+
+---
+
 ## Engineering Investigations
 
 This simulator was used to investigate the influence of key engineering parameters on rocket performance. Each parameter was varied independently while the remaining variables were held constant.
@@ -123,9 +189,33 @@ Simulation accuracy was evaluated by comparing predicted altitude with experimen
 
 ---
 
+
+# Model Assumptions
+
+The current simulator assumes
+
+- Vertical flight only
+- Constant drag coefficient
+- No rocket rotation
+- No launch rail dynamics
+- No parachute descent
+  
+---
+
 ## Future Improvements
 
 - Add multi-stage rocket capability
 - Include launch angle effects
 - Improve atmospheric modelling
 - Compare with additional experimental datasets
+
+---
+
+# Author
+
+Zainab Asim
+
+BEng Aerospace Engineering
+University of Leeds
+
+Developed as a personal engineering project to investigate rocket flight dynamics, numerical simulation and experimental validation.
