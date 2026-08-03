@@ -135,7 +135,7 @@ Model accuracy was quantified using the Root Mean Square Error (RMSE).
 
 ## 2. Effect of Drag Coefficient
 
-![Drag](drag_coefficient_vs_rmse.png)
+![Drag](drag_coefficient.png)
 
 Increasing the drag coefficient generally reduced the maximum altitude while affecting the simulation accuracy.
 
