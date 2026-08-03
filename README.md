@@ -91,27 +91,27 @@ Calculate RMSE
 
 At baseline conditions (thrust scale = 1.0, Cd = 1.0, no wind), the simulator reaches a **maximum altitude of 146.3 m** against an experimental RMSE of **18.0 m**, tracking the real flight closely through the powered ascent and coast phase.
 
-![Simulation vs Experimental Data](images/simulation_vs_experiment.png)
+![Simulation vs Experimental Data](simulation_vs_experiment.png)
 
 ### Thrust Scale
 
 Sweeping the thrust multiplier from 0.8–1.4 shows altitude increasing almost linearly with thrust, while simulation error is lowest around a thrust scale of **0.88–0.98**, where RMSE drops to about **17.9–19.4 m** — meaning the real motor performed close to, but slightly below, its nominal rated thrust.
 
 ![Effect of Thrust Scale on Maximum Altitude](thrust_scale_vs_altitude.png)
-![Effect of Thrust Scale on Simulation Error](images/thrust_scale_vs_simulation_error.png)
+![Effect of Thrust Scale on Simulation Error](thrust_scale_vs_simulation_error.png)
 
 ### Drag Coefficient
 
 The best match to experimental data occurs at **Cd ≈ 0.95–1.0**, giving the lowest RMSE (**~18.0 m**). Altitude prediction is highly sensitive to Cd, ranging from 173 m at Cd = 0.6 down to 137 m at Cd = 1.2.
 
-![Effect of Drag Coefficient on Maximum Altitude](images/effect_of_drag_coeff_on_max_altitude.png)
-![Effect of Drag Coefficient on Simulation Error](images/effect_of_drag_coeff_on_sim_error.png)
+![Effect of Drag Coefficient on Maximum Altitude](effect_of_drag_coeff_on_max_altitude.png)
+![Effect of Drag Coefficient on Simulation Error](effect_of_drag_coeff_on_sim_error.png)
 
 ### Time Step (Euler Convergence)
 
 Reducing the time step from 0.2 s to 0.01 s converges the RMSE from **19.5 m down to 17.9 m**, showing the simulation stabilizing as numerical error shrinks. Below dt = 0.02 s, further reduction gives negligible improvement — indicating convergence.
 
-![Time Step Convergence Study](images/time_step_convergency.png)
+![Time Step Convergence Study](time_step_convergency.png)
 
 ### Thrust-to-Weight Ratio
 
