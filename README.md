@@ -106,16 +106,22 @@ Performance was evaluated using:
 
 ---
 
-##Engineering Concepts
+## Engineering Investigations
 
-This project applies several Aerospace Engineering principles, including:
-- Newton's Second Law of Motion
-- Variable-mass rocket dynamics
-- Aerodynamic Drag
-- Atmospheric density variation
-- Numerical time integration
-- Model validation using experimental data
+This simulator was used to investigate the influence of key engineering parameters on rocket performance. Each parameter was varied independently while the remaining variables were held constant.
 
+The investigations included:
+
+- Thrust scale
+- Drag coefficient
+- Wind speed
+- Propellant mass
+- Thrust-to-weight ratio
+- Numerical time-step (Euler convergence study)
+
+Simulation accuracy was evaluated by comparing predicted altitude with experimental flight data using Root Mean Square Error (RMSE).
+
+---
 
 ## Future Improvements
 
