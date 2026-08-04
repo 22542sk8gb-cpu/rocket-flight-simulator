@@ -126,7 +126,7 @@ Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), 
 
 ![Effect of Propellant Mass on Max Altitude](propellant_mass_vs_altitude.png)
 ![Effect of Propellant Mass on Max Velocity](effect%20of%20prop%20mass%20on%20max%20ve.png)
-![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect_of_propellant_mass_on_twr.png)
+![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect%20of%20propellant%20mass%20on%20twr.png)
 
 ### Wind Speed
 
