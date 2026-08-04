@@ -133,7 +133,7 @@ Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), 
 The thrust scale that best matches experimental data shifts with wind — from **1.14 in a 10 m/s headwind** down to **0.87 in a 10 m/s tailwind** — showing the model correctly compensates apparent thrust for relative airspeed. Minimum achievable RMSE stays in the **17.8–19.4 m** range across all tested wind speeds.
 
 ![Best Thrust Scale vs Wind Speed](best_thrust_scale_vs_wind_speed.png)
-![Minimum RMSE vs Wind Speed](min_rmse_vs_wind_speed.png)
+![Minimum RMSE vs Wind Speed](min%20rmse%20vs%20wind%20speed.png)
 
 ### Summary Table
 
