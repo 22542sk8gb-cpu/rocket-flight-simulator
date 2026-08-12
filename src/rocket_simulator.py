@@ -1,13 +1,20 @@
+
+
 import matplotlib.pyplot as plt
 import math
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 # Read experimental data
+project_root = Path(__file__).resolve().parents[1]
+flight_data = pd.read_csv(project_root / "data" / "flight_data.csv")
 
-flight_data = pd.read_csv("../data/flight_data.csv")
 real_time = flight_data["Time"]
 real_altitude = flight_data["altitude"]
+
+
+
 
 def simulate_flight(thrust_scale, wind_speed, cd, dt, propellant_mass):
     """
