@@ -1,1 +1,1 @@
-from rocket_simulator import 
+from rocket_simulator import *
