@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 
 # Read experimental data
-flight_data = pd.read_csv("flight_data.csv")
+
+flight_data = pd.read_csv("../data/flight_data.csv")
 real_time = flight_data["Time"]
 real_altitude = flight_data["altitude"]
 
