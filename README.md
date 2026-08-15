@@ -169,6 +169,26 @@ Simulation accuracy was evaluated by comparing predicted altitude with experimen
 
 ---
 
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/zainabasima2006-design/rocket-flight-simulator.git
+cd rocket-flight-simulator
+```
+
+### 2. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the simulator
+
+Open the `src` folder and run the main simulation script.
+
+
 ## Future Improvements
 
 - Add multi-stage rocket capability
