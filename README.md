@@ -186,7 +186,9 @@ pip install -r requirements.txt
 
 ### 3. Run the simulator
 
-Open the `src` folder and run the main simulation script.
+```bash
+python src/main.py
+```
 
 
 ## Future Improvements
