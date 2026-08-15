@@ -123,7 +123,7 @@ Reducing the time step from 0.2 s to 0.01 s converges the RMSE from **19.5 m dow
 
 Simulation error is minimized at a thrust-to-weight ratio of roughly **5.3–5.4**, with RMSE rising sharply on either side (up to 60+ m at the extremes). Maximum altitude increases almost linearly with TWR across the tested range.
 
-![Effect of TWR on Maximum Altitude](graphs/effect%20of%20thrust%20to%20weight%20ratio%20on%20alt.png)
+![Effect of TWR on Maximum Altitude]((./graphs/effect%20of%20thrust%20to%20weight%20ratio%20on%20alt.png)
 ![Effect of TWR on Simulation Error](graphs/effect%20of%20twr%20on%20simulation%20error.png)
 
 ### Propellant Mass
