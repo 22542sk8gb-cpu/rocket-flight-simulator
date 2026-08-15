@@ -70,16 +70,22 @@ Atmospheric Density
 ## Simulation Workflow
 
 Motor Thrust Curve
+
         ↓
 Calculate Forces
+
         ↓
 Euler Integration
+
         ↓
 Update Velocity
+
         ↓
 Update Altitude
+
         ↓
 Compare with Flight Data
+
         ↓
 Calculate RMSE
 
