@@ -110,8 +110,8 @@ Sweeping the thrust multiplier from 0.8–1.4 shows altitude increasing almost l
 
 The best match to experimental data occurs at **Cd ≈ 0.95–1.0**, giving the lowest RMSE (**~18.0 m**). Altitude prediction is highly sensitive to Cd, ranging from 173 m at Cd = 0.6 down to 137 m at Cd = 1.2.
 
-![Effect of Drag Coefficient on Maximum Altitude](effect%20of%20drag%20coeff%20on%20max%20altitude.png)
-![Effect of Drag Coefficient on Simulation Error](effect%20of%20drag%20coeff%20on%20sim%20error.png)
+![Effect of Drag Coefficient on Maximum Altitude](graphs/effect%20of%20drag%20coeff%20on%20max%20altitude.png)
+![Effect of Drag Coefficient on Simulation Error](graphs/effect%20of%20drag%20coeff%20on%20sim%20error.png)
 
 ### Time Step (Euler Convergence)
 
