@@ -130,7 +130,7 @@ Simulation error is minimized at a thrust-to-weight ratio of roughly **5.3–5.4
 
 Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), then decreases for higher propellant loads as the added mass outweighs the extra burn time. Maximum velocity follows a similar trend, peaking near **54.6 m/s** at 0.04 kg.
 
-![Effect of Propellant Mass on Max Altitude](propellant_mass_vs_altitude.png)
+![Effect of Propellant Mass on Max Altitude](graphs/propellant_mass_vs_altitude.png)
 ![Effect of Propellant Mass on Max Velocity](effect%20of%20prop%20mass%20on%20max%20ve.png)
 ![Effect of Propellant Mass on Thrust-to-Weight Ratio](effect%20of%20propellant%20mass%20on%20twr.png)
 
@@ -139,7 +139,7 @@ Maximum altitude peaks around **0.045–0.05 kg** of propellant (~150–152 m), 
 The thrust scale that best matches experimental data shifts with wind — from **1.14 in a 10 m/s headwind** down to **0.87 in a 10 m/s tailwind** — showing the model correctly compensates apparent thrust for relative airspeed. Minimum achievable RMSE stays in the **17.8–19.4 m** range across all tested wind speeds.
 
 ![Best Thrust Scale vs Wind Speed](./graphs/best_thrust_scale_vs_wind_speed.png)
-![Minimum RMSE vs Wind Speed](min%20rmse%20vs%20wind%20speed.png)
+![Minimum RMSE vs Wind Speed](graphs/min%20rmse%20vs%20wind%20speed.png)
 
 ### Summary Table
 
