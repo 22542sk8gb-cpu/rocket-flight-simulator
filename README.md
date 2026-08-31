@@ -97,7 +97,7 @@ Calculate RMSE
 
 At baseline conditions (thrust scale = 1.0, Cd = 1.0, no wind), the simulator reaches a **maximum altitude of 146.3 m** against an experimental RMSE of **18.0 m**, tracking the real flight closely through the powered ascent and coast phase.
 
-![Simulation vs Experimental Data](simulation%20vs%20experiment.png)
+![Simulation vs Experimental Data](simulationvsexperiment.png)
 
 ### Thrust Scale
 
