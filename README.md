@@ -117,7 +117,7 @@ The best match to experimental data occurs at **Cd ≈ 0.95–1.0**, giving the 
 
 Reducing the time step from 0.2 s to 0.01 s converges the RMSE from **19.5 m down to 17.9 m**, showing the simulation stabilizing as numerical error shrinks. Below dt = 0.02 s, further reduction gives negligible improvement — indicating convergence.
 
-![Time Step Convergence Study](time%20step%20convergency.png)
+![Time Step Convergence Study](graphs/time%20step%20convergency.png)
 
 ### Thrust-to-Weight Ratio
 
